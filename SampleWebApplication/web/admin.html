@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style type="text/css">
+        *{
+          margine: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        .header
+        {
+            height: 100vh;
+
+        }
+        body{
+        background: skyblue;
+        }
+        .navbar-style
+        {
+            box-shadow: 0 5px 10px #efefef;
+            text-transform: uppercase;
+            background: white;
+        }
+        .logo
+        {
+            height: 60px;
+            padding: 5px 10px;
+            margin-left: 0;
+        }
+        .icon-bar
+        {
+            background: darkorange;
+        }
+        li a
+        {
+            color: #333;
+        }
+        input#submit{
+                width: 200px;
+                padding: 7px;
+                font-size: 16px;
+                font-family: sans-serif;
+                font-weight: 600;
+                border: none;
+                border-radius: 3px;
+                background-color: rgba(250,100,0,0.8);
+                color: #fff;
+                cursor: pointer;
+                border: 1px solid rgba(255,255,255,0.3);
+                box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+                margin-bottom: 20px;
+            }
+            div.Action{
+                text-align: center;
+                width: 500px;
+    margin: 100px auto 0px auto;
+    height: 300px;
+    text-align: center;
+    padding: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.5);
+    
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 2px 15px rgba(0,0,0,0.3);
+    color: white;
+    border: 1px solid grey;
+            }
+            
+            
+        </style>
+        
+         <nav class="navbar navbar-style">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+
+                
+                </div>
+                <div class="collapse navbar-collapse" id="micon">
+                <ul class="nav navbar-nav navbar-right">
+                <li><a href="navbar.html">Home</a></li>
+                <li><a href="user.jsp">User Panel</a></li>
+                <li><a href="admin.html">Admin Panel</a></li>
+                </div>
+            </div>
+         </nav>
+    </head>
+    <body>
+        <div class="Action">
+            <form action="insert.jsp">
+                <input type="submit" value="Insert" name="Submit" id="submit"/>
+                
+            </form>
+<!--            <a href="insert.jsp">insert</a>-->
+            <form action="delete.jsp">
+                <input type="submit" value="Delete" name="Submit" id="submit"/>
+                
+            </form>
+            <form action="Display">
+                <input type="submit" value="Display" name="Submit" id="submit"/>
+                
+            </form>
+        </div>
+    </body>
+</html>

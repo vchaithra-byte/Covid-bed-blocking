@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background: skyblue;
+}
+
+            
+            .header
+            {
+                height: 100vh;
+
+            }
+            .navbar-style
+            {
+                box-shadow: 0 5px 10px #efefef;
+                text-transform: uppercase;
+                background: white;
+            }
+            .logo
+            {
+                height: 60px;
+                padding: 5px 10px;
+                margin-left: 0;
+            }
+            .icon-bar
+            {
+                background: darkorange;
+            }
+            li a
+            {
+                color: #333;
+            }
+.big-text{
+    font-size: 60px;
+    margin: 20px 0;
+    color: darkorange;
+}
+.small-text{
+    width: 500px;
+    margin: 100px auto 0px auto;
+    height: 600px;
+    text-align: justify;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 2px 15px rgba(0,0,0,0.3);
+    color: white;
+    border: 1px solid grey;
+}    
+    
